@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "library for customizing the scrollbar",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-vilemen/customsb.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "Rodrigo Vilemen (RVACODE)",
   "license": "MIT"
