@@ -7,8 +7,9 @@ Bem-vindo ao projeto CustomSB! Este repositório contém uma biblioteca personal
 Para utilizar a biblioteca CustomSB em seu projeto, siga as etapas abaixo:
 
 1. Instale a biblioteca
+
 ```shell
-npm i customsb 
+npm i customsb
 
 ```
 
@@ -17,15 +18,16 @@ npm i customsb
 Após a instalação, você pode usar a biblioteca CustomSB em seu código da seguinte maneira:
 
 ```javascript
-import customizeScrollbar from 'customsb';
+import customizeScrollbar from "customsb";
 
 // Aplicando a personalização com opções diferentes
 // Abaixo é somente um exemplo de personalização, adapte para o seu projeto
 customizeScrollbar({
-    scrollbarWidth: '8px',
-    trackBackground: '#333',
-    thumbBackground: 'linear-gradient(178.8deg, #FF6347 47.41%, #FF4500 65.18%, #CD5C5C 90.84%)',
-    thumbBorderRadius: '10px',
+  scrollbarWidth: "8px",
+  trackBackground: "#333",
+  thumbBackground:
+    "linear-gradient(178.8deg, #FF6347 47.41%, #FF4500 65.18%, #CD5C5C 90.84%)",
+  thumbBorderRadius: "10px",
 });
 
 // Ou aplicando com as configurações padrão
