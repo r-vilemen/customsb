@@ -8,7 +8,7 @@
     "url": "git+https://github.com/r-vilemen/customsb.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "@r-vilemen:registry": "https://npm.pkg.github.com/"
   },
   "author": "Rodrigo Vilemen (RVACODE)",
   "license": "MIT"
