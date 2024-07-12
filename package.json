@@ -1,14 +1,11 @@
 {
-  "name": "@r-vilemen/customsb",
+  "name": "customsb",
   "version": "1.0.0",
   "description": "Library for customizing the scrollbar.",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/r-vilemen/customsb.git"
-  },
-  "publishConfig": {
-    "@r-vilemen:registry": "https://npm.pkg.github.com/"
   },
   "author": "Rodrigo Vilemen (RVACODE)",
   "license": "MIT"
