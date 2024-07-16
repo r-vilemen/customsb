@@ -1,15 +1,20 @@
 function customizeScrollbar(options = {}) {
-    // Default options
-    const defaultOptions = {
-        scrollbarWidth: '5px',
-        trackBackground: '#1d1e1f',
-        thumbBackground: 'linear-gradient(178.8deg, #393939 47.41%, #7b7b7b 65.18%, #a1a1a1 90.84%)',
-        thumbBorderRadius: '20px',
-    };
+  if (typeof document === "undefined") {
+    return;
+  }
 
-    const settings = { ...defaultOptions, ...options };
+  // Default options for the scrollbar
+  const defaultOptions = {
+    scrollbarWidth: "5px",
+    trackBackground: "#1d1e1f",
+    thumbBackground:
+      "linear-gradient(178.8deg, #393939 47.41%, #7b7b7b 65.18%, #a1a1a1 90.84%)",
+    thumbBorderRadius: "20px",
+  };
 
-    const styles = `
+  const settings = { ...defaultOptions, ...options };
+
+  const styles = `
         ::-webkit-scrollbar {
             width: ${settings.scrollbarWidth};
         }
@@ -22,10 +27,10 @@ function customizeScrollbar(options = {}) {
         }
     `;
 
-    const styleElement = document.createElement('style');
-    styleElement.type = 'text/css';
-    styleElement.appendChild(document.createTextNode(styles));
-    document.head.appendChild(styleElement);
+  const styleElement = document.createElement("style");
+  styleElement.type = "text/css";
+  styleElement.appendChild(document.createTextNode(styles));
+  document.head.appendChild(styleElement);
 }
 
 export default customizeScrollbar;
