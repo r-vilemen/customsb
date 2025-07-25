@@ -46,7 +46,7 @@ useEffect(() => {
 }, []);
 ```
 
-## Configarção padrão
+## Configuração padrão
 
 Aqui está as configurações padrões
 
